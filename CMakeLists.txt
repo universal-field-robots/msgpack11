@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.2)
 project(msgpack11 VERSION 0.0.9 LANGUAGES CXX C)
 
-option(MSGPACK11_BUILD_TESTS "Build unit tests" ON)
+option(MSGPACK11_BUILD_TESTS "Build unit tests" OFF)
 
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
